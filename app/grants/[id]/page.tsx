@@ -168,7 +168,7 @@ export default function GrantDetail({ params }: { params: { id: string } }) {
                     <div>
                       <h3 className="text-[16px] font-medium text-trustblue-900 dark:text-white mb-[8px]">Zcash Blockchain</h3>
                       <p className="text-[14px] leading-[26px] text-trustblue-900 dark:text-white">
-                        Projects should focus on creating novel, privacy-enhancing solutions that expand Zcash's capabilities and adoption. While projects with KYC requirements may be considered, priority will be given to those that maximize user anonymity and data protection.
+                        Projects should focus on creating novel, privacy-enhancing solutions that expand Zcash&apos;s capabilities and adoption. While projects with KYC requirements may be considered, priority will be given to those that maximize user anonymity and data protection.
                       </p>
                     </div>
                     <div>

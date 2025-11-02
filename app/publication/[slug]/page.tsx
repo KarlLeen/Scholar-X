@@ -195,7 +195,7 @@ export default function PublicationDetail({ params }: { params: { slug: string }
                   <li>• Router offers a suite of products including its main application, Voyager, a flexible widget, and an SDK called CrossTalk.</li>
                   <li>• Voyager enables cross-chain asset swaps by leveraging DEX liquidity and aggregators such as 1inch.</li>
                   <li>• The CrossTalk SDK and widget enable other applications and developers to build interoperability directly into their systems.</li>
-                  <li>• Router allows users to pay transfer fees with the source chain's native gas token, USDC, or with ROUTE or DFYN with rebates given for fees paid in ROUTE.</li>
+                  <li>• Router allows users to pay transfer fees with the source chain&apos;s native gas token, USDC, or with ROUTE or DFYN with rebates given for fees paid in ROUTE.</li>
                 </ul>
               </section>
 
@@ -247,9 +247,9 @@ export default function PublicationDetail({ params }: { params: { slug: string }
 
                   <p>External Validators & Federations are the most widely used, given that they present an attractive combination of statefulness, connectivity, and speed. However, what they offer in those areas, they sacrifice in security. Their users have to rely on the security of the bridge as opposed to that of the underlying chains.</p>
 
-                  <p>Light Clients & Relays are the second most popular and optimize for statefulness, capital efficiency, and security. The high level of statefulness is possible because of the wide range of data that can be passed through header relay systems. They are also capital efficient because they don't need capital lockup. Lastly, they provide high security because they don't require additional trust assumptions. The limiting factor is connectivity since adding new chains is not as straightforward.</p>
+                  <p>Light Clients & Relays are the second most popular and optimize for statefulness, capital efficiency, and security. The high level of statefulness is possible because of the wide range of data that can be passed through header relay systems. They are also capital efficient because they don&apos;t need capital lockup. Lastly, they provide high security because they don&apos;t require additional trust assumptions. The limiting factor is connectivity since adding new chains is not as straightforward.</p>
 
-                  <p>Liquidity networks provide speed and security because nodes operate in a peer-to-peer fashion. The nodes don't require consensus with the rest of the nodes, which is why they are referred to as "locally verified systems." They are also quite capital efficient because capital is not such an important component for securing the system. They do, however, sacrifice statefulness, given that it is limited in what the calldata can perform.</p>
+                  <p>Liquidity networks provide speed and security because nodes operate in a peer-to-peer fashion. The nodes don&apos;t require consensus with the rest of the nodes, which is why they are referred to as &quot;locally verified systems.&quot; They are also quite capital efficient because capital is not such an important component for securing the system. They do, however, sacrifice statefulness, given that it is limited in what the calldata can perform.</p>
                 </div>
               </section>
 

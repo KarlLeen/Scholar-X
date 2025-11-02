@@ -1,5 +1,6 @@
 'use client'
 
+import Image from 'next/image'
 import { ZoomIn, ZoomOut, Download, Printer, Share2, Menu } from 'lucide-react'
 
 export default function PDFViewer() {
@@ -61,10 +62,12 @@ export default function PDFViewer() {
         <div className="bg-white mx-auto shadow-2xl" style={{ width: '702px', height: '993px' }}>
           {/* PDF Image */}
           <div className="w-full h-full relative">
-            <img 
+            <Image 
               src="/assets/PDF.png" 
               alt="PDF Page 1" 
-              className="w-full h-full object-contain"
+              fill
+              className="object-contain"
+              unoptimized
             />
           </div>
         </div>
